@@ -50,7 +50,7 @@ VERILATOR := verilator
 else
 VERILATOR := $(VERILATOR_ROOT)/bin/verilator
 endif
-VFLAGS := -Wall --MMD --trace -cc
+VFLAGS :=  --MMD --trace -cc
 
 $(VDIRFB)/Vwbvgaframe__ALL.a: $(VDIRFB)/Vwbvgaframe.h
 $(VDIRFB)/Vwbvgaframe__ALL.a: $(VDIRFB)/Vwbvgaframe.cpp
